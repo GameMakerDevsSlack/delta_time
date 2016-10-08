@@ -215,7 +215,7 @@ if ( test_juju ) {
         veloc_y = 0;
     }
 
-} else {
+} else { //What follows is the common, and wrong, way to try to use delta time
     
     //Handle velocity and acceleration
     veloc_x += accel_x * dt_factor;
